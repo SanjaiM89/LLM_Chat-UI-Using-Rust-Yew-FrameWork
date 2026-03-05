@@ -1,0 +1,13 @@
+[package]
+name = "chat-frontend"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+yew = { version = "0.21", features = ["csr"] }
+serde.workspace = true
+serde_json.workspace = true
+gloo-net = "0.6"
+wasm-bindgen-futures = "0.4"
+web-sys = { version = "0.3", features = ["HtmlInputElement", "HtmlSelectElement", "HtmlTextAreaElement"] }
